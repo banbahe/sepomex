@@ -1,5 +1,5 @@
 # SEPOMEX
-![](https://www.apestan.com/content_files/case_attached_images/4c2601ffba96d34c0be9a73878c69dd5.jpg =450x250)
+![](https://www.apestan.com/content_files/case_attached_images/4c2601ffba96d34c0be9a73878c69dd5.jpg?v=7&s=30)
 Correos de México conciliacion proyecto demo.
 
   - backend
