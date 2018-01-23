@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/site.css" rel="stylesheet" media="screen">
+    <title>SEPOMEX</title>
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">Acerca de Correos de México</h4>
+                        <p class="text-muted">Correos de México, además de cumplir una función social elemental de mantener comunicada a toda la sociedad mexicana, presta servicios de valor agregado en el ámbito de la filatelia, mensajería y paquetería, los cuales en su conjunto, benefician tanto a la ciudadanía en general como a emprendedores y empresarios de todos los rubros y tamaños.</p>
+                        <p class="text-muted">
+                            Nuestra amplia cobertura que abarca el 98% de la República Mexicana, así como más de 27,000 puntos de servicio, más de 2,800 rutas terrestres y más de 15,000 colaboradores dispuestos a otorgar servicios de calidad, nos sitúan como una de las empresas más importantes de distribución en México.
+                        </p>
+                        <p class="text-muted">
+                            Respaldado por su gran tradición y experiencia, Correos de México es una institución de vanguardia que no se queda al margen de la vertiginosa evolución tecnológica, hemos reinventado nuestros procesos operativos, mismos que responden a los desafios de un mercado cada vez más demandante que exige productos de calidad a precios muy competitivos; prueba de ello es que contamos con las tarifas más bajas, lo que nos sitúa como la mejor opción costo-beneficio del mercado. Por eso, con Correos de México tu envío te llega y con Mexpost te llega más rápido.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contacto</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/gobmx" class="text-white">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/gobmx" class="text-white">Facebook</a></li>
+                            <li><a href="mailto:gobmx@funcionpublica.gob.mx?Subject=Correos%20de%20Mexico" target="_top" class="text-white">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar navbar-light bg-faded box-shadow box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img src="./assets/images/logo2.jpg" alt="sepomex" style="width=200px; height: 70px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <label for="client">Clientes</label>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img id="imgClient" src="male.png" alt="cliente" style="width: 70px;height: 35px;">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <select id="divClient" class="custom-select d-block w-100" id="client" required>
+                        <option value="0">seleccione...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Por favor seleccione cliente valido.
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <textarea class="form-control" rows="15" id="txtReport" disabled></textarea>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-left">
+                    <a id="btnDownload" href="#" class="btn"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-muted">
+        <div class="container">
+            <div class="col-sm-4"><img class="gobmx-footer" src="https://framework-gb.cdn.gob.mx/assets/images/gobmxlogo.svg" width="126" height="39" alt="Página de inicio, Gobierno de México"></div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/sweetalert.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
